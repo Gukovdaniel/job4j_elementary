@@ -9,7 +9,7 @@ public class MultiMaxTest {
     @Test
     public void whenSecondMax() {
         int result = MultiMax.max(10, 10, 1);
-        assertThat(result, is(15));
+        assertThat(result, is(10));
     }
 
     @Test
