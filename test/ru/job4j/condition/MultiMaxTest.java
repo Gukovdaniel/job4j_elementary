@@ -14,7 +14,7 @@ public class MultiMaxTest {
 
     @Test
     public void whenFirstMax() {
-        int result = MultiMax.max(6, 4, 2);
+        int result = MultiMax.max(6, 3, 2);
         assertThat(result, is(6));
     }
 
