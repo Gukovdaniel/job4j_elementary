@@ -26,13 +26,13 @@ public class MultiMaxTest {
 
     @Test
     public void whenAllSame() {
-        int result = MultiMax.max(7, 7, 7);
+        int result = MultiMax.max(3, 7, 7);
         assertThat(result, is(7));
     }
 
     @Test
     public void twiceMax() {
-        int rsl = ThreeMax.max(10, 15, 15) ;
+        int rsl = ThreeMax.max(10, 15, 15);
         assertThat(rsl, Matchers.is(15));
     }
 }
