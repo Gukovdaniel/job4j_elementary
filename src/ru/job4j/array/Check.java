@@ -7,8 +7,8 @@ public class Check {
         for(int i = 0; i < data.length - 1; i++) {
             if(data[0] != data[i+1]) return false;
         }
-        boolean b = true;
-        return b;
+
+        return true;
     }
 
 }
