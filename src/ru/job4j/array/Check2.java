@@ -11,5 +11,4 @@ public class Check2 {
         }
         return true;
     }
-
 }
